@@ -1,0 +1,61 @@
+ /* Style the navigation bar */
+
+.navbar {
+    overflow: hidden;
+    background-color: #87ceeb;
+}
+
+
+/* Navigation bar links */
+
+.navbar h2 {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.buttons :hover{
+    background-color:red ;
+    color: #000000;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#87ceeb;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 1rem;
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  }

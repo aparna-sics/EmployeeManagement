@@ -1,0 +1,49 @@
+h4{
+    width: max-content;
+    height: max-content;
+    background-color: aqua;
+    color: white;
+    
+}
+
+#submitbutton{
+    margin: 100px;
+    text-align: -webkit-center;
+  text-align: -moz-center;
+}
+#image_preview{
+     max-width: 150px;
+     max-height: 150px;
+}
+
+body {
+    background-image: url('./images/Background_image.jpg');
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div#subbutton {
+
+    width: 120px;
+}
+form{
+    display: flex;
+    width: 100% !important;
+}
+#personaldetails
+{
+   width:300px;
+    gap: 40px;
+
+}
+#companydetails
+{
+    width:300px;
+     gap: 40px;
+ }
+ #submitbutton
+{
+    width:300px;
+     gap: 40px;
+ }
+ 
